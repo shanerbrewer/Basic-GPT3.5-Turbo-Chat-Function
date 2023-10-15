@@ -20,9 +20,9 @@ def chat(role,prompt):
 
 chat_qs = ["What is an axolotl?",
            "What is an amphibian", 
-           "What is hello world?"]
+          ]
 
-chat_roles = ["You are an expert on amphibians.", "You are an expert on programming"]
+chat_roles = ["You are an expert on amphibians."]
 outputs = []
 
 for x in chat_roles:
